@@ -6,10 +6,11 @@ import requests
 def main():
    downloadFiles()
    compressFiles()
+   
 
 def downloadFiles():
    ## Saida do diretorio, onde irão os arquivos
-   outputDirectory = "C:/Users/Viniccius/Desktop/IntuitiveCare_Teste1/Anexos"
+   outputDirectory = "C:/Users/Viniccius/Documents/GitHub/IntuitiveCare_Teste1/Anexos"
 
    ## URL's dos arquivos que serão baixados
    urls = [
